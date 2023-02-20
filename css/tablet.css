@@ -1,0 +1,123 @@
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+
+  .header {
+    padding: 24px 0 0;
+  }
+
+  .burger-btn {
+    display: none;
+  }
+  .menu {
+    display: flex;
+    margin-left: 123px;
+    gap: 40px;
+  }
+
+  .addres-contacts {
+    display: block;
+    font-style: normal;
+    font-size: 12px;
+  }
+
+  .contacts {
+    margin-bottom: 12px;
+  }
+  .contacts-item {
+    text-align: end;
+  }
+
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/bg-tablet1.jpg);
+    padding: 112px 0 108px;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/bg-tablet@2x.jpg);
+    }
+  }
+  .hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+    width: 496px;
+    margin-bottom: 40px;
+  }
+
+  .qualities-list {
+    column-gap: 24px;
+  }
+
+  .qualities-item {
+    flex-basis: calc((100% - 24px) / 2);
+  }
+  .subtitle {
+    text-align: start;
+  }
+
+  .team {
+    padding-bottom: 104px;
+  }
+
+  .customers-list {
+    justify-content: center;
+    column-gap: 24px;
+  }
+
+  .customer-item {
+    width: calc((100% - 234px) / 3);
+  }
+  .footer-social-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: normal;
+  }
+
+  .description-footer {
+    width: 264px;
+  }
+
+  .footer-soc-text {
+    text-align: start;
+  }
+
+  .footer-wraper {
+    text-align: start;
+    margin-left: 93px;
+    margin-right: 25px;
+  }
+
+  .input-text {
+    text-align: start;
+  }
+
+  .footer-inp-btn {
+    flex-wrap: nowrap;
+  }
+
+  .footer-container-input {
+    margin-left: 93px;
+  }
+
+  .footer-input {
+    margin-right: 24px;
+    width: 264px;
+  }
+
+  .modal {
+    width: 408px;
+    height: 584px;
+  }
+}
